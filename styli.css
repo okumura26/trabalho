@@ -1,0 +1,324 @@
+body{
+    background-color: #181818;
+    
+    
+    
+ 
+}
+a{
+    text-decoration: none;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+width: 100%;
+height: 80px;
+background:rgba(#181818);
+opacity: 0.8;
+animation: ihalanav 1s ease-out;
+
+
+
+}
+
+.navbar ul{
+float: right;
+margin-right: 20px;
+
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family:'Roboto', 'sans-serif';
+    padding:6px 13px;
+    transition: .4s;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(111, 1, 255);
+    border-radius:2px ;
+}
+.logo{
+    width: 230px;
+    height: auto;
+    margin-top: -42px;
+    margin-left: 40px;
+   
+    animation: logok 1s ease-out;
+
+}
+
+
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%,-50%);
+}
+.centro {
+    margin: 0 auto;
+    width: 200px;
+    perspective: 1000px;
+  }
+  
+  
+  
+  
+  #cabecalho{
+    background-color: #181818;
+    
+ 
+  
+    padding: 40px 38px;
+    color: rgb(0, 0, 0);
+    bottom: 100px;
+
+  }
+  .center h1{
+   
+    color:white;
+   text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
+    font-weight: bold;
+    width: 700ox;
+    margin-top: 235px;
+    text-align: center;
+    animation: letra1 1s ease-out;
+   
+}
+.center h2{
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
+    font-weight: bold;
+    width: 850ox;
+    margin-top: 5px;
+    text-align: center;
+    animation: letra1 1s ease-out;
+}
+
+
+     
+     
+     
+ 
+ 
+ 
+@keyframes ihalanav {
+    0%   {
+        
+        transform: translateX(2000px);
+    }
+  
+   
+    100%{transform: translateX(0);}
+    
+  
+}
+@keyframes logok {
+    0%   {
+        
+        transform: translateX(-3500px);
+    }
+  
+   
+    100%{transform: translateX(0);}
+    
+  
+}
+
+#myVideo {
+    position:-ms-page;
+    right: 0px;
+    bottom: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    
+    
+    animation: anim 1s ease-out;
+  }
+  @keyframes anim {
+    0%   { opacity: 0.0;
+        
+      
+    }
+    100%{
+        opacity: 0.9;
+    }
+  
+   
+    
+    
+  
+}
+.fire{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+.texto2{
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 30px;
+    font-weight: bold;
+    width: 850ox;
+    margin-top: -40px;
+    margin-left: 50px;
+
+    animation: letra1 1s ease-out;
+    font-family: 'Montserrat', sans-serif;
+}
+.pc6{
+    border-radius: 40px;
+    margin-top: 40px;
+    margin-left: 50px;
+    box-shadow: 30px 30px 15px rgba(0,0,0,0.5);
+   
+
+}
+.pcd{
+ color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    font-weight: bold;
+    width: 850ox;
+    margin-top: 5px;
+    margin-left: 30px;
+
+    animation: letra1 1s ease-out;
+    font-family: 'Montserrat', sans-serif;
+}
+.de1{
+    color:rgb(228, 13, 13);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 20px;
+    font-weight: bold;
+    width: 850ox;
+    margin-top: 10px;
+    margin-left: 30px;
+
+    animation: letra1 1s ease-out;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.r1{
+    color:rgb(34, 226, 76);
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 50px;
+    font-weight: bold;
+    width: 850ox;
+    margin-top: 5px;
+    margin-left: 20px;
+
+    animation: letra1 1s ease-out;
+    font-family: 'Montserrat', sans-serif;
+}
+#pcpika :hover{
+   
+    
+        opacity:0.7;
+}
+#pcpika:hover
+{
+    
+        opacity:1;
+}
+#pcruim :hover{
+    opacity: 0.7;
+   
+    
+    
+}
+#pcruim:hover{
+    opacity: 1;
+}
+#pcruim{
+    position: relative;
+    height: 500px;
+    
+    
+}
+
+
+#cadeira1{
+    margin-left: 630px;
+    margin-top: -995px;
+    position: relative;
+}
+#cadeira1 :hover{
+    opacity: 0.7;
+    
+}
+#cadeira1:hover{
+    opacity: 1;
+}
+#cul{
+    margin-left: 1200px;
+    margin-top: -497px;
+    position:relative;
+}
+#cul :hover{
+    opacity: 0.7;
+    
+}
+#cul:hover{
+    opacity: 1;
+}
+#men :hover{
+    opacity: 0.7;
+    
+}
+#men:hover{
+    opacity: 1;
+}
+
+#men{
+    margin-left:  630px;
+    margin-top: -27px;
+    position: relative;
+    
+        
+}
+#ssd{
+    margin-left: 1200px;
+     margin-top: -523px;
+     position: relative;
+}   
+#ssd :hover{
+    opacity: 0.7;
+    
+}
+#ssd:hover{
+    opacity: 1;
+}
+footer {
+    position: relative;
+    bottom: -200;
+    background-color: #252525;
+    color: #FFF;
+    width: 100%;
+    height: 60px;    
+    line-height: 30px;
+    top: 5px;
+    font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+
+

@@ -1,0 +1,458 @@
+body{
+    background-color: #181818;
+    
+    
+ 
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar{
+width: 100%;
+height: 80px;
+background:rgba(#181818);
+opacity: 0.8;
+animation: ihalanav 1s ease-out;
+
+
+
+}
+
+.navbar ul{
+float: right;
+margin-right: 20px;
+
+}
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display:inline-block;
+    line-height: 80px;
+
+}
+.navbar ul li a {
+
+    text-decoration: none;
+    color: white;
+    font-size:20px;
+    font-family:'Roboto', 'sans-serif';
+    padding:6px 13px;
+    transition: .4s;
+    
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background: rgb(111, 1, 255);
+    border-radius:2px ;
+}
+.logo{
+    width: 230px;
+    height: auto;
+    margin-top: -42px;
+    margin-left: 40px;
+   
+    animation: logok 1s ease-out;
+
+}
+
+
+.container{
+    position:absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%,-50%);
+}
+.centro {
+    margin: 0 auto;
+    width: 200px;
+    perspective: 1000px;
+  }
+  
+  
+  
+  
+  #cabecalho{
+    background-color: #181818;
+    
+ 
+  
+    padding: 40px 38px;
+    color: rgb(0, 0, 0);
+    bottom: 100px;
+
+  }
+
+
+     
+     
+     
+ 
+ 
+ 
+@keyframes ihalanav {
+    0%   {
+        
+        transform: translateX(2000px);
+    }
+  
+   
+    100%{transform: translateX(0);}
+    
+  
+}
+@keyframes logok {
+    0%   {
+        
+        transform: translateX(-3500px);
+    }
+  
+   
+    100%{transform: translateX(0);}
+    
+  
+}
+
+    #pcc{
+        background-image: url(casa.jpg);
+        background-repeat: no-repeat;
+        Text-decoration: none;
+background-size:700px;
+width:700px;
+height:700px;
+list-style-type: none;
+margin-left: 65px;
+border-radius: 20px;
+
+
+
+    }
+    #pcc:hover {
+        background-image: url(mark.jpg);
+        
+        transition: 1s 
+       
+             
+    }
+    
+    
+    .textpc{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-left: 850px;
+        top: -700px;
+        position: relative;
+
+        
+      
+      
+
+
+    }
+
+    .linha{
+        filter: invert(100%);
+        width: 800px;
+        height: 30px;
+        position: relative;
+        margin-left: 840px;
+        top: -700px;
+        opacity: 0.3;
+    
+    }
+    .prod{
+        color: green;
+        font-family: 'Montserrat', sans-serif;
+        margin-left: 840px;
+        position: relative;
+        margin-top: -730px;
+        height: 9px;
+        border: none;
+
+
+
+    }
+    .linha2{
+        filter: invert(100%);
+        width: 800px;
+        height: 30px;
+        position: relative;
+        margin-left: 840px;
+        top: -660px;
+        opacity: 0.3;
+    }
+    #compra{
+        border-radius: 20px;
+        position: relative;
+        margin-left: 1380px;
+        top: 70px;
+        z-index:5;
+    }
+   #compra:hover {
+        opacity: 0.6;
+        transition: opacity 0.5s;
+        
+    }
+    .depc{
+       font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 880px;
+        top: 100px;
+        color: red;
+        text-shadow: #600 1px 2px 5px;
+        font-size: 15px;
+        
+      
+    }
+    .textol{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 875px;
+        top: 110px;
+        color:rgb(30, 163, 30);
+        text-shadow: #600 1px 2px 5px;
+        font-size: 32px;
+    }
+    .golpe{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 110px;
+        left: 880px;
+        color:rgb(30, 163, 30);
+        text-shadow: #600 1px 2px 5px;
+        font-size: 10px;
+    }
+    .pix{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 110px;
+        left: 880px;
+        color:rgb(255, 255, 255);
+        text-shadow: #600 1px 2px 5px;
+        font-size: 10px;
+    }
+       .cartao{
+           width: 40px;
+           height: 40px;
+           position: relative;
+           left: 819px;
+           
+           top: 100px;
+       }
+      body {
+       
+        overflow-x: hidden;
+    }
+    .monei{
+        position: relative;
+      left: 770px;
+        top: 18px;
+        height: 80px;
+        width: 50px;
+        
+    }
+    .linhav{
+        position: relative;
+        width: 70px;
+        height: 90px;
+        left: 705px;
+        top: 70px;
+        z-index:5;
+    }
+    .textov{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 870px;
+        top: 30px;
+        color:rgb(240, 15, 15);
+        text-shadow: rgb(0, 0, 30) 1px 2px 5px;
+        font-size: 25px;
+    }
+    .doz{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 30px;
+        left: 871px;
+        color:rgb(255, 255, 255);
+        text-shadow: #600 1px 2px 5px;
+        font-size: 10px;
+    }
+    .krai{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 938px;
+        top: 18px;
+        color:rgb(240, 15, 15);
+        text-shadow: rgb(0, 0, 30) 1px 2px 5px;
+        font-size: 12px;
+    }
+       .juros{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        top: 22px;
+        left: 871px;
+        color:rgb(255, 255, 255);
+        text-shadow: #600 1px 2px 5px;
+        font-size: 10px;
+       }
+       .relogio
+    {
+        position: relative;
+        left: 1120px;
+        bottom: 160px;
+    }
+    .eusouoleo{
+        height: 200px;
+        width: 200px;
+        position: relative;
+        left: 1645px;
+       bottom: 240px;
+        z-index:4;
+        transform:rotate(53grad);
+      
+        
+
+    }
+    .linhave{
+        position: relative;
+        width: 5500px;
+        height: 100px;
+        left: 1400px;
+        padding-right: 200px;
+        
+         bottom: 400px;
+         
+    }
+    .pau{
+        position: relative;
+        width: 250px;
+        height: 85px;
+        left: 1390px;
+        top: -290px;
+        opacity: 0.7;
+
+    }
+    .estoque{
+      
+        position: relative;
+        left: 1090px;
+        top: -230px;
+
+    }
+    .lin{
+        filter: invert(100%);
+        width: 800px;
+        height: 30px;
+        position: relative;
+        margin-left: 840px;
+        top: -250px;
+        opacity: 0.3;
+
+    }
+    .card{
+        width: 40px;
+        height: 40px;
+        position: relative;
+        left: -800px;
+        
+        top: -200px;
+    }
+    .parcecla{
+        font-family: 'Ubuntu', sans-serif;
+        position: relative;
+        left: 889px;
+        top: -239px;
+        color: red;
+        text-shadow: #600 1px 2px 5px;
+        font-size: 18px;
+    }
+    .parcela{
+        position:relative;
+        left: 846px;
+        top: -230px;
+        border-radius: 9px;
+    }
+   
+    .vaivai img{
+        max-width: 100%;
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+        
+
+    }
+    .vaivai:hover img {
+        
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    .cartaopikaa{
+     width: 20%;
+        position: relative;
+        left: 820px;
+        top: -250px;
+    }
+    .desc{
+        margin-left: 140px;
+        position: relative;
+    }
+    .leo{
+        background-color: rgb(39, 39, 39);
+        height: 80px;
+        margin-top: -260px;
+    }
+    .textosd{
+        font-family: 'Montserrat', sans-serif;
+      
+        position: relative;
+        left: 820px;
+        top: 10px;
+        color:rgb(255, 255, 255);
+        text-shadow: rgb(0, 0, 30) 1px 2px 5px;
+        font-size: 40px;
+    }
+    .foguinho{
+        position: relative;
+        margin-top: -180px;
+        top: -10px;
+        height: 80px;
+        margin-left: 950px;
+    }
+    .fireca{
+        position: relative;
+        margin-top: -120px;
+        top: 60px;
+        height: 80px;
+        margin-left: 725px; 
+       
+           ;
+           
+            
+            
+    }
+    footer {
+        position: relative;
+        bottom: -200;
+        background-color: #252525;
+        color: #FFF;
+        width: 100%;
+        height: 60px;    
+        line-height: 30px;
+        top: 80px;
+        font-size: 100%;
+        font-family: 'Montserrat', sans-serif;
+        
+    }
+
+   
+  
+   
+ 
+
+
+    
+    
+   
+
